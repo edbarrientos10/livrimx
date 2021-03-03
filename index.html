@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="styles/style.css" rel="stylesheet">
+
+    <title>Livri.mx | Compra y vende libros usados</title>
+</head>
+
+<body>
+
+    <!-- Bootstrap Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Livri.mx</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero images / carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <!--REMINDER: Ccambiar widths de imágenes de carrusel con CSS-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/img/books 1 hero.jpg" height="350px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/img/books 2 hero.jpg" height="350px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/img/books 3 hero.jpg" height="350px" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <!-- Sección compra/vende con imágenes-->
+    <article class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Comprar libros</h2>
+                <p>Compra libros a un precio accesible.</p>
+                <img src="">
+                <a>Ver libros</a>
+            </div>
+            <div class="col-md-6">
+                <h2>Vender libros libros</h2>
+                <p>Gana dinero vendiendo libros que ya has leído.</p>
+                <img src="">
+                <a>Crea tu cuenta</a>
+            </div>
+        </div>
+    </article>
+
+    <!--Featured books-->
+    <div class="featured">
+        <h2>Libros destacados</h2>
+
+    </div>
+
+    <!--Subscripción a email list-->
+    <div class="email-list">
+        <h3>Suscríbete para recibir promociones y noticias</h3>
+        <input class="input" type="text" size="25" placeholder="Nombre">
+        <input class="input" type="text" size="25" placeholder="Apellido">
+        <input class="input" type="email" placeholder="Correo electrónico">
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <ul>
+            <h3>Compra libros</h3>
+            <li>Más vendidos</li>
+            <li>Categorías</li>
+        </ul>
+
+        <ul>
+            <h3>Vende libros</h3>
+            <li>Crea tu cuenta</li>
+            <li>¿Cómo ganar dinero?</li>
+        </ul>
+
+        <ul>
+            <h3>Ayuda</h3>
+            <li>Preguntas frecuentes</li>
+            <li>Contacto</li>
+        </ul>
+        
+
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+
+
+</body>
+
+</html>
